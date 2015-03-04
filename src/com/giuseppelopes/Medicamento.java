@@ -2,8 +2,9 @@ package com.giuseppelopes;
 
 public class Medicamento {
 	private String nome;
+	private String fabricante;
 
-	public Medicamento(String nome) {
+	public Medicamento(String nome, String fabricante) {
 		if (nome.isEmpty()) {
 			this.nome = null;
 		} else {
@@ -17,5 +18,17 @@ public class Medicamento {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+	
+	public String getFabricante() {
+		return fabricante;
+	}
+	
+	public void setFabricante(String fabricante) {
+		if (fabricante.isEmpty()) {
+			this.fabricante = null;
+		} else {
+			this.fabricante = fabricante;
+		}
 	}
 }
