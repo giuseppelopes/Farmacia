@@ -3,7 +3,7 @@ package com.giuseppelopes;
 public class Medicamento {
 	private String nome;
 
-	public void Medicamento(String nome) {
+	public Medicamento(String nome) {
 		if (nome.isEmpty()) {
 			this.nome = null;
 		} else {
