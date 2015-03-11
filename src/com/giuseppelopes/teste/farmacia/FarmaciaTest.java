@@ -1,4 +1,4 @@
-package com.giuseppelopes;
+package com.giuseppelopes.teste.farmacia;
 
 public class FarmaciaTest {
 

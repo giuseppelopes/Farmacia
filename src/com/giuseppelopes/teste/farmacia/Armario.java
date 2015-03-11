@@ -1,4 +1,4 @@
-package com.giuseppelopes;
+package com.giuseppelopes.teste.farmacia;
 
 import java.util.ArrayList;
 
